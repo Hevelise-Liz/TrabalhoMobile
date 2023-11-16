@@ -1,31 +1,18 @@
-// import { styles } from "./style";
-// import { View, Text, StyleSheet } from "react-native";
-// import React from "react";
 
-// const Home = () => {
-//   return (
-//     <View>
-//       <Text style={styles.texto}> QUALQUER COISA </Text>
-//     </View>
-//   );
-// };
-
-// export default Home;
-
-//---------------------------------------------------------
 import React from 'react';
-import { View, Button } from 'react-native';
-import { commonStyles } from './style';
+import { View, Text, Button } from 'react-native';
+import { Home } from './';
 
-const HomeScreen = ({ navigation }) => {
+const Home = ({ navigation }) => {
   return (
-    <View style={commonStyles.container}>
+    <View style={Home.container}>
+      <Text style={Home.title}>Bem-vindo ao McDonald's</Text>
       <Button
-        title="Ir para a Segunda Rota"
-        onPress={() => navigation.navigate('Second')}
+        title="Ver Menu"
+        onPress={() => navigation.navigate('Menu')}
       />
     </View>
   );
 };
 
-export default HomeScreen;
+export default Home;
