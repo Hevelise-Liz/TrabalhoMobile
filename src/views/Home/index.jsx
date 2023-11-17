@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { View, Text, Button } from 'react-native';
-import { Home } from './';
+
+import { styles } from './style';
 
 const Home = ({ navigation }) => {
   return (
