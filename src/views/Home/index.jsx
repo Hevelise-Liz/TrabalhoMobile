@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
-import { style }from '../Home/style';
+import { styleHome } from './styleHome';
 
 const Home = ({ navigation }) => {
   return (
