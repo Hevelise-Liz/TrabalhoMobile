@@ -39,28 +39,28 @@ export const styles = StyleSheet.create({
   botão1: {
     position: "absolute",
 
-    start: 17,
+    start: 19,
     bottom: 10,
   },
 
   botão2: {
     position: "absolute",
 
-    start: 66,
+    start: 69,
     bottom: 10,
   },
 
   botão3: {
     position: "absolute",
 
-    start: 127,
+    start: 133,
     bottom: 10,
   },
 
   botão4: {
     position: "absolute",
 
-    start: 185,
+    start: 190,
     bottom: 10,
   },
 
@@ -97,28 +97,28 @@ export const styles = StyleSheet.create({
   icon1: {
     position: "absolute",
 
-    start: 21,
+    start: 23,
     bottom: 25,
   },
 
   icon2: {
     position: "absolute",
 
-    start: 72,
+    start: 75,
     bottom: 19,
   },
 
   icon3: {
     position: "absolute",
 
-    start: 132,
+    start: 139,
     bottom: 25,
   },
 
   icon4: {
     position: "absolute",
 
-    start: 188,
+    start: 195,
     bottom: 25,
   },
 
@@ -129,12 +129,5 @@ export const styles = StyleSheet.create({
     bottom: 17,
   },
 
-  // footerIcons: {
-  //   position: "absolute",
-  //   flexDirection: "row",
-  //   justifyContent: "space-between",
-  //   bottom: 15,
-  //   width: "100%",
-  //   paddingHorizontal: 20,
-  // },
+ 
 });
