@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const styleHome = StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -10,4 +10,10 @@ export const styleHome = StyleSheet.create({
     fontSize: 24,
     marginBottom: 20,
   },
+
+  pesquisar: {
+alignItems:'flex-start',
+
+
+  }
 });
