@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
+
     alignItems: "center",
   },
 
@@ -12,7 +12,6 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     marginBottom: 20,
     top: 310,
-
   },
 
   pesquisar: {
@@ -37,16 +36,43 @@ export const styles = StyleSheet.create({
     fontSize: 25,
   },
 
-  botão: {
+  botão1: {
     position: "absolute",
-    start: 70,
+
+    start: 17,
     bottom: 10,
-   
   },
 
-  botãoTexto:{
-    fontSize: 12,
+  botão2: {
+    position: "absolute",
 
+    start: 66,
+    bottom: 10,
+  },
+
+  botão3: {
+    position: "absolute",
+
+    start: 127,
+    bottom: 10,
+  },
+
+  botão4: {
+    position: "absolute",
+
+    start: 185,
+    bottom: 10,
+  },
+
+  botão5: {
+    position: "absolute",
+
+    start: 247,
+    bottom: 10,
+  },
+
+  botãoTexto: {
+    fontSize: 12,
   },
 
   imagemRecomendacoes: {
@@ -54,49 +80,61 @@ export const styles = StyleSheet.create({
     top: 50,
     width: 290,
     height: 210,
-    
-    
   },
 
-pontinhos:{
-  position: "absolute",
-  top: 260,
+  pontinhos: {
+    position: "absolute",
+    top: 260,
+  },
 
-},
+  imagem2: {
+    position: "absolute",
+    top: 390,
+    width: 297,
+    height: 130,
+  },
 
-imagem2: {
-  position: "absolute",
-  top: 390,
-  width: 297,
-  height: 130,
-},
+  icon1: {
+    position: "absolute",
 
-footerHome:{
-  position: "absolute",
-  bottom: 10,
-  fontSize: 12,
-  start: 20,
-},
+    start: 21,
+    bottom: 25,
+  },
 
-footerCupons:{
-  position: "absolute",
-  bottom: 10,
-    fontSize: 12,
-    start: 135,
-},
+  icon2: {
+    position: "absolute",
 
-footermeuM:{
-  position: "absolute",
-  bottom: 10,
-  fontSize: 12,
-  start: 195,
-},
+    start: 72,
+    bottom: 19,
+  },
 
-footerMais:{
-  position: "absolute",
-  bottom: 10,
-  fontSize: 12,
-  start: 250,
-},
+  icon3: {
+    position: "absolute",
 
+    start: 132,
+    bottom: 25,
+  },
+
+  icon4: {
+    position: "absolute",
+
+    start: 188,
+    bottom: 25,
+  },
+
+  icon5: {
+    position: "absolute",
+
+    start: 243,
+    bottom: 17,
+  },
+
+  // footerIcons: {
+  //   position: "absolute",
+  //   flexDirection: "row",
+  //   justifyContent: "space-between",
+  //   bottom: 15,
+  //   width: "100%",
+  //   paddingHorizontal: 20,
+  // },
 });

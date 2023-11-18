@@ -3,6 +3,8 @@ import { View, Text, Button, Image, TouchableOpacity } from "react-native";
 import { styles } from "../Home/style";
 import { Fontisto } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
+import { EvilIcons } from "@expo/vector-icons";
+import { AntDesign } from "@expo/vector-icons";
 
 const Home = ({ navigation }) => {
   return (
@@ -36,19 +38,78 @@ const Home = ({ navigation }) => {
       />
 
       <TouchableOpacity
-        style={styles.botão}
+        style={styles.botão1}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <Text style={styles.botãoTexto}>Home</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.botão2}
         onPress={() => navigation.navigate("Menu")}
       >
         <Text style={styles.botãoTexto}>Comprar</Text>
       </TouchableOpacity>
 
-<Text style={styles.footerHome}>Home</Text>
-<Text style={styles.footerCupons}>Cupons</Text>
-<Text style={styles.footermeuM}>MeuM</Text>
-<Text style={styles.footerMais}>Mais</Text>
+      <TouchableOpacity
+        style={styles.botão3}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <Text style={styles.botãoTexto}>Cupons</Text>
+      </TouchableOpacity>
 
+      <TouchableOpacity
+        style={styles.botão4}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <Text style={styles.botãoTexto}>MeuM</Text>
+      </TouchableOpacity>
 
+      <TouchableOpacity
+        style={styles.botão5}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <Text style={styles.botãoTexto}>Mais</Text>
+      </TouchableOpacity>
 
+      <TouchableOpacity
+        style={styles.icon1}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <Ionicons name="ios-home-outline" size={24} color="black" />
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.icon2}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <EvilIcons name="credit-card" size={34} color="black" />
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.icon3}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <AntDesign name="tago" size={24} color="black" />
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.icon4}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <AntDesign name="trademark" size={24} color="black" />
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.icon5}
+        onPress={() => navigation.navigate("Menu")}
+      >
+        <Ionicons
+          name="md-ellipsis-horizontal-outline"
+          size={34}
+          color="black"
+        />
+      </TouchableOpacity>
     </View>
   );
 };
