@@ -11,6 +11,7 @@ const Rotas = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
+
         <Stack.Screen name="Home" component={Home} />
         
         <Stack.Screen name="Menu" component={Menu} />
@@ -20,3 +21,4 @@ const Rotas = () => {
 };
 
 export default Rotas;
+
