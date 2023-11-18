@@ -39,9 +39,14 @@ export const styles = StyleSheet.create({
 
   botão: {
     position: "absolute",
-    justifyContent: "center",
-    alignItems: "center",
-    bottom: 20,
+    start: 70,
+    bottom: 10,
+   
+  },
+
+  botãoTexto:{
+    fontSize: 12,
+
   },
 
   imagemRecomendacoes: {
@@ -64,6 +69,34 @@ imagem2: {
   top: 390,
   width: 297,
   height: 130,
+},
+
+footerHome:{
+  position: "absolute",
+  bottom: 10,
+  fontSize: 12,
+  start: 20,
+},
+
+footerCupons:{
+  position: "absolute",
+  bottom: 10,
+    fontSize: 12,
+    start: 135,
+},
+
+footermeuM:{
+  position: "absolute",
+  bottom: 10,
+  fontSize: 12,
+  start: 195,
+},
+
+footerMais:{
+  position: "absolute",
+  bottom: 10,
+  fontSize: 12,
+  start: 250,
 },
 
 });
