@@ -12,8 +12,40 @@ export const styles = StyleSheet.create({
   },
 
   pesquisar: {
-alignItems:'flex-start',
+    position: 'absolute', 
+    top: 10,  
+    left: 10, 
+    flexDirection: 'row', 
+    
+  },
+
+  encontre:{
+    justifyContent:'flex-end', 
+    padding: 3,
+    paddingStart: 5,
+    paddingEnd:120,
+    color:"#ccc" ,
+   
+  
+  },
 
 
-  }
+  emoji: {
+    position: 'absolute', 
+    top: 300,  
+    left: 7, 
+    fontSize: 25,
+
+  },
+
+  botão: {
+    position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
+    bottom: 20,
+  
+
+  },
+
+
 });
