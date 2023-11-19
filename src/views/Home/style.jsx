@@ -40,40 +40,40 @@ backgroundColor:"white",
   botão1: {
     position: "absolute",
 
-    start: 19,
-    bottom: 10,
+    start: 21.5,
+    bottom: 13,
   },
 
   botão2: {
     position: "absolute",
 
-    start: 69,
-    bottom: 10,
+    start: 73,
+    bottom: 13,
   },
 
   botão3: {
     position: "absolute",
 
-    start: 133,
-    bottom: 10,
+    start: 135,
+    bottom: 13,
   },
 
   botão4: {
     position: "absolute",
 
-    start: 190,
-    bottom: 10,
+    start: 194,
+    bottom: 13,
   },
 
   botão5: {
     position: "absolute",
 
-    start: 247,
-    bottom: 10,
+    start: 249,
+    bottom: 13,
   },
 
   botãoTexto: {
-    fontSize: 12,
+    fontSize: 10,
   },
 
   imagemRecomendacoes: {
