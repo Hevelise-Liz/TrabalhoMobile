@@ -25,7 +25,7 @@ backgroundColor:"white",
   encontre: {
     justifyContent: "flex-end",
     padding: 3,
-    paddingStart: 5,
+    paddingStart: 10,
     paddingEnd: 120,
     color: "#ccc",
   },
