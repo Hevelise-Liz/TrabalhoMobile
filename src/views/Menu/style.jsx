@@ -12,31 +12,31 @@ export const styles = StyleSheet.create({
     marginBottom: 5,
     color: "white",
     backgroundColor: "#c60b18",
-    width:"98%",
-   
+    width: "98%",
+
     paddingEnd: 24,
     paddingStart: 24,
     paddingTop: 5,
     paddingBottom: 5,
     borderWidth: 2,
-   borderColor: "#888",
-   borderRadius: 5,
-   fontWeight: 'bold',
+    borderColor: "#888",
+    borderRadius: 5,
+    fontWeight: "bold",
   },
   subTitle: {
     fontSize: 19,
     marginBottom: 5,
     backgroundColor: "#ffbc0d",
-    width:"98%",
-    
+    width: "98%",
+
     paddingEnd: 70,
     paddingStart: 70,
     paddingTop: 5,
     paddingBottom: 5,
     borderWidth: 2,
-   borderColor: "#888",
-   borderRadius: 5,
-   fontWeight: 'bold',
+    borderColor: "#888",
+    borderRadius: 5,
+    fontWeight: "bold",
   },
 
   itemImage: {
@@ -61,55 +61,44 @@ export const styles = StyleSheet.create({
     color: "#888",
   },
 
-
-
   input: {
-    justifyContent: 'center',
-    
-      fontSize: 14,
-width:"100%",
+    justifyContent: "center",
+
+    fontSize: 14,
+    width: "100%",
     height: 80,
-      margin: 1,
-      color: "#888",
-      paddingEnd: 35,
-      paddingStart: 35,
-      paddingTop: 1,
-      paddingBottom: 1,
-
+    margin: 1,
+    color: "#888",
+    paddingEnd: 35,
+    paddingStart: 35,
+    paddingTop: 1,
+    paddingBottom: 1,
   },
 
-salvar: {
+  salvar: {
+    justifyContent: "center",
 
- justifyContent: 'center',
-
- backgroundColor: "#c60b18",
-   borderWidth: 2,
-   borderColor: "#888",
-   borderRadius: 5,
-   paddingEnd: 10,
-   paddingStart: 10,
-   margin: 3,
-  
+    backgroundColor: "#c60b18",
+    borderWidth: 2,
+    borderColor: "#888",
+    borderRadius: 5,
+    paddingEnd: 10,
+    paddingStart: 10,
+    margin: 3,
   },
-  botãoTexto:{
+  botãoTexto: {
     color: "white",
-
   },
 
-
-anotado:{
-  justifyContent: 'center',
-  width:"98%",
-  backgroundColor: "#ffbc0d",
-  borderWidth: 2,
-  borderColor: "#888",
-borderRadius: 5,
-  paddingBottom: 10,
-  paddingStart: 5,
-  paddingTop:3,
-
-
-}
-
-
+  anotado: {
+    justifyContent: "center",
+    width: "98%",
+    backgroundColor: "#ffbc0d",
+    borderWidth: 2,
+    borderColor: "#888",
+    borderRadius: 5,
+    paddingBottom: 10,
+    paddingStart: 5,
+    paddingTop: 3,
+  },
 });

@@ -128,6 +128,4 @@ export const styles = StyleSheet.create({
     start: 243,
     bottom: 17,
   },
-
- 
 });

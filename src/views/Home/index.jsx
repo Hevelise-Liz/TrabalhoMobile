@@ -76,28 +76,28 @@ const Home = ({ navigation }) => {
         style={styles.icon1}
         onPress={() => navigation.navigate("Menu")}
       >
-        <Ionicons name="ios-home-outline" size={24} color="black" />
+        <Ionicons name="ios-home-outline" size={24} color="#716f6f" />
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.icon2}
         onPress={() => navigation.navigate("Menu")}
       >
-        <EvilIcons name="credit-card" size={34} color="black" />
+        <EvilIcons name="credit-card" size={34} color="#716f6f" />
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.icon3}
         onPress={() => navigation.navigate("Menu")}
       >
-        <AntDesign name="tago" size={24} color="black" />
+        <AntDesign name="tago" size={24} color="#716f6f" />
       </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.icon4}
         onPress={() => navigation.navigate("Menu")}
       >
-        <AntDesign name="trademark" size={24} color="black" />
+        <AntDesign name="trademark" size={24} color="#716f6f" />
       </TouchableOpacity>
 
       <TouchableOpacity
@@ -107,7 +107,7 @@ const Home = ({ navigation }) => {
         <Ionicons
           name="md-ellipsis-horizontal-outline"
           size={34}
-          color="black"
+          color="#716f6f"
         />
       </TouchableOpacity>
     </View>

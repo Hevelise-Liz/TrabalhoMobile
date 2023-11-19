@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, FlatList, Image, TextInput, Button, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  FlatList,
+  Image,
+  TextInput,
+  Button,
+  TouchableOpacity,
+} from "react-native";
 import { styles } from "./style";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
@@ -116,18 +124,11 @@ const Menu = () => {
         onChangeText={(text) => setInputValue(text)}
       />
 
-<TouchableOpacity
-        style={styles.salvar}
-        onPress={saveInput}
-      >
+      <TouchableOpacity style={styles.salvar} onPress={saveInput}>
         <Text style={styles.botãoTexto}>Salvar</Text>
       </TouchableOpacity>
 
-
-
-      <Text style={styles.anotado}>
-        
-        Anotado:  {savedInput}</Text>
+      <Text style={styles.anotado}>Anotado: {savedInput}</Text>
 
       <FlatList
         data={menuData}
