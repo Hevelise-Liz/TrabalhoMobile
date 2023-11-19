@@ -12,19 +12,31 @@ export const styles = StyleSheet.create({
     marginBottom: 5,
     color: "white",
     backgroundColor: "#c60b18",
-    paddingEnd: 34,
-    paddingStart: 34,
+    width:"98%",
+   
+    paddingEnd: 24,
+    paddingStart: 24,
     paddingTop: 5,
     paddingBottom: 5,
+    borderWidth: 2,
+   borderColor: "#888",
+   borderRadius: 5,
+   fontWeight: 'bold',
   },
   subTitle: {
     fontSize: 19,
     marginBottom: 5,
     backgroundColor: "#ffbc0d",
-    paddingEnd: 78,
-    paddingStart: 78,
+    width:"98%",
+    
+    paddingEnd: 70,
+    paddingStart: 70,
     paddingTop: 5,
     paddingBottom: 5,
+    borderWidth: 2,
+   borderColor: "#888",
+   borderRadius: 5,
+   fontWeight: 'bold',
   },
 
   itemImage: {
@@ -70,24 +82,31 @@ salvar: {
 
  justifyContent: 'center',
 
-   backgroundColor: "#ffbc0d",
+ backgroundColor: "#c60b18",
    borderWidth: 2,
    borderColor: "#888",
    borderRadius: 5,
-   padding:3,
+   paddingEnd: 10,
+   paddingStart: 10,
    margin: 3,
+  
+  },
+  botãoTexto:{
+    color: "white",
 
-},
+  },
 
 
 anotado:{
   justifyContent: 'center',
-  width:"100%",
- 
+  width:"98%",
+  backgroundColor: "#ffbc0d",
   borderWidth: 2,
   borderColor: "#888",
 borderRadius: 5,
   paddingBottom: 10,
+  paddingStart: 5,
+  paddingTop:3,
 
 
 }
