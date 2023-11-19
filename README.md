@@ -35,3 +35,13 @@ NPM
 
 
 Autora: Hevelise - Liz 
+
+
+![printTrabMobile](https://github.com/Hevelise-Liz/TrabalhoMobile/assets/142060905/c11fbc64-66e5-4918-a916-fd2138341122)
+![printAppMc](https://github.com/Hevelise-Liz/TrabalhoMobile/assets/142060905/f2a76e46-04fe-4aa8-b204-4de03df2b983)
+
+
+
+
+
+
