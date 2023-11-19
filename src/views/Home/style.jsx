@@ -3,15 +3,16 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-
+backgroundColor:"white",
     alignItems: "center",
   },
 
   title: {
     position: "absolute",
-    fontSize: 24,
+    fontSize: 22,
     marginBottom: 20,
     top: 310,
+    start:5,
   },
 
   pesquisar: {
@@ -32,7 +33,7 @@ export const styles = StyleSheet.create({
   emoji: {
     position: "absolute",
     top: 340,
-    left: 7,
+    start: 5,
     fontSize: 25,
   },
 
